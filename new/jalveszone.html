@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jalves Zone - Downloads</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at center, #000000 0%, #0a0a0a 100%);
+      color: #00fff2;
+      overflow-x: hidden;
+    }
+
+    .stars {
+      position: fixed;
+      width: 200%;
+      height: 200%;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+      animation: animateStars 100s linear infinite;
+      z-index: -1;
+      opacity: 0.15;
+    }
+
+    @keyframes animateStars {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-50%, -50%); }
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(0, 255, 255, 0.1);
+      border-bottom: 2px solid #00fff2;
+      box-shadow: 0 0 20px #00fff2;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00fff2;
+      text-shadow: 0 0 20px #00fff2;
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% { text-shadow: 0 0 20px #00fff2; }
+      50% { text-shadow: 0 0 40px #00fff2; }
+    }
+
+    .downloads {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .downloads h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 10px #00fff2;
+    }
+
+    .game {
+      background: rgba(0, 255, 255, 0.05);
+      border: 1px solid #00fff2;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00fff2;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .game:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 30px #00fff2;
+    }
+
+    .game h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .game p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .game a {
+      display: inline-block;
+      background-color: #00fff2;
+      color: #0a0a0a;
+      padding: 0.6rem 1.2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .game a:hover {
+      background-color: #00cccc;
+    }
+
+    .screenshot {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #00fff2;
+    }
+
+    .game a.dedicated {
+      display: block;
+      margin-top: 10px;
+      background-color: #111;
+      color: #00fff2;
+      border: 1px solid #00fff2;
+    }
+
+    .game a.dedicated:hover {
+      background-color: #00fff2;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #00fff2;
+      font-size: 0.9rem;
+      background: rgba(0, 255, 255, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <header>
+    <h1>🚀 Jalves Zone Downloads</h1>
+  </header>
+  <section class="downloads">
+    <h2>Download Futuristic Games</h2>
+
+    <div class="game">
+      <img src="https://wallpaper.forfun.com/fetch/4f/4f0493eaf48abe32b449b54858e496b6.jpeg" alt="Cyber Strike GIF" class="screenshot">
+      <h3>Cyber Strike 2077</h3>
+      <p>A next-gen FPS experience. Available now!</p>
+      <a href="#">Download via Steam (Affiliate)</a>
+      <a href="cyber strike2077.html" class="dedicated">🔎 View Details</a>
+    </div>
+
+    <div class="game">
+      <img src="https://w0.peakpx.com/wallpaper/469/487/HD-wallpaper-video-game-alien-arena.jpg" alt="Alien Arena GIF" class="screenshot">
+      <h3>Alien Arena X</h3>
+      <p>Battle across the galaxy in this alien combat game.</p>
+      <a href="#">Download via Epic Store (Affiliate)</a>
+      <a href="alien.html" class="dedicated">🔎 View Details</a>
+    </div>
+
+    <div class="game">
+      <img src="https://i.kickstarter.com/assets/043/968/014/ad9554ed86890a194a56e6396aa07321_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1707648289&width=1024&sig=gXD3D7pD9kqK%2FaFyNZms1XIYD6d0pKsZjUB5fdizVrQ%3D" alt="Stellar Drift GIF" class="screenshot">
+      <h3>Stellar Drift</h3>
+      <p>Race through nebulas and asteroid fields!</p>
+      <a href="#">Download via Amazon Games (Affiliate)</a>
+      <a href="stellerdrift.html" class="dedicated">🔎 View Details</a>
+    </div>
+
+    <div class="game">
+      <img src="https://c4.wallpaperflare.com/wallpaper/151/642/489/fiction-robots-poster-pacific-rim-2-pacific-rim-uprising-hd-wallpaper-preview.jpg" alt="Mecha Uprising GIF" class="screenshot">
+      <h3>Mecha Uprising</h3>
+      <p>Control giant robots in a futuristic warzone.</p>
+      <a href="#">Download via GameSpot (Affiliate)</a>
+      <a href="mecha.html" class="dedicated">🔎 View Details</a>
+    </div>
+
+    <div class="game">
+      <img src="https://img.freepik.com/free-photo/supersport-car-cyberpunk-city-with-neon-lights-generative-ai_191095-1234.jpg" alt="Neon Racers GIF" class="screenshot">
+      <h3>Neon Racers</h3>
+      <p>Speed through cyber highways in glowing hovercars.</p>
+      <a href="#">Download via Origin (Affiliate)</a>
+      <a href="neon.html " class="dedicated">🔎 View Details</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Jalves Zone. All rights reserved.</p>
+  </footer>
+  <meta name="description" content="Play sci-fi futuristic games at Jalves Zone - Cyber Strike, Alien Arena, and more!">
+<meta name="keywords" content="sci-fi games, futuristic games, jalves zone, cyber strike, racing games">
+<meta name="author" content="Shantanu Ji">
+
+</body>
+</html>
